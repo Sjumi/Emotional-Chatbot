@@ -6,6 +6,5 @@ matplotlib
 koreanize_matplotlib
 scikit-learn
 sentence_transformers
-sklearn.metrics.pairwise
 json
 openpyxl
