@@ -13,7 +13,7 @@ def cached_model():
 
 @st.cache(allow_output_mutation=True)
 def get_dataset():
-    df = pd.read_excel('concat_data2.xlsx')
+    df = pd.read_excel('concat_data.xlsx')
     df['embedding1'] = df['embedding1'].apply(json.loads)
     return df
 
